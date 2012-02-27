@@ -24,7 +24,7 @@ describe FizzBuzz do
       FizzBuzz.new(20, 14).next.should == "fizz buzz"
     end
     
-    it "should return false when past limit5" do
+    it "should return false when past limit" do
       FizzBuzz.new(20, 20).next.should == false
     end    
   end  
